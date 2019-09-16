@@ -17,3 +17,6 @@ Answers and Notes:
 
 <h1>Challenge 3:</h1>
 1. Updated the sample to use a parametized statement, rather than a dynamic statement
+
+<h1>Challenge 4:</h1>
+1. Uses a python package that act as an nmap wrapper to scan, and parse certificate info into an html format that can be sent as an email or uploaded to a static webpage.
