@@ -7,3 +7,9 @@ Answers and Notes:
 <li>3. In the dockerfile there are a lot of things being installed that aren't being used. This needlessly increases the size of the attack surface. If you remove those packages you also prevent <b>gcc</b> and <b>binutils</b> from being installed which resolves <b>CVE-2018-12699</b> as that isn't an acceptable answer, this issue is also resolved by using the newer version of Alpine, or you could install the <b>acl</b> package, and lock down the permissions for <b>objdump</b> which is the vulnerable package, by blocking its use. setfacl user:*:rwx- objdump </li>
 </ul>
 As an asside I don't know if this is within scope, but this image install all sorts of things not being used. If the point is just to build a containerized test application to learn docker or something to that end, there are better images to use.
+
+<h1>Challenge 2:</h1>
+Answers and Notes:
+1. To resolve this challenge I update the package releases for spring framework and jackson-databind to the latest versions then rescanned.
+
+<h1>Challenge 3:</h1>
