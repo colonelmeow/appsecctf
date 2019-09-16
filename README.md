@@ -1,4 +1,7 @@
 # appseccft
+<h1>CTF Anwers</h1>
+
+
 <h1>Challenge 1:</h1>
 Answers and Notes:
 <ul>
@@ -13,3 +16,4 @@ Answers and Notes:
 1. To resolve this challenge I update the package releases for spring framework and jackson-databind to the latest versions then rescanned.
 
 <h1>Challenge 3:</h1>
+1. Updated the sample to use a parametized statement, rather than a dynamic statement
